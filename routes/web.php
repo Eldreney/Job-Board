@@ -1,7 +1,14 @@
 <?php
 
+use App\Http\Controllers\JobController;
 use Illuminate\Support\Facades\Route;
 
-Route::get('/', function () {
+Route::get('/', action: function () {
     return view('welcome');
 });
+
+
+
+Route::get('/jobs', [JobController::class, 'index']);  
+
+

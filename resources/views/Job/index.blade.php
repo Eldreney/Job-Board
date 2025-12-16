@@ -1,0 +1,3 @@
+<div>
+   Jobs index
+</div>
